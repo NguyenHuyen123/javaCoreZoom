@@ -96,6 +96,16 @@ public class Ex2 {
                     }else {
                         if( day>=1 && day <=28){
                             System.out.println( day+"/"+month+"/"+year+ " hợp lệ");
+                            if ( day==28){
+                                System.out.println( 1+"/"+(month+1)+"/"+year+ " ngày sau");
+                            }else{
+                                System.out.println( (day+1)+"/"+month+"/"+year+ " ngày sau");
+                            }
+                            if ( day==1){
+                                System.out.println( 31+"/"+(month-1)+"/"+year+ " ngày trước");
+                            }else{
+                                System.out.println( (day-1)+"/"+month+"/"+year+ " ngày trước");
+                            }
                         }else {
                             System.out.println( day+"/"+month+"/"+year+ " Không hợp lệ");
                         }
