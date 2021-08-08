@@ -20,7 +20,7 @@ public class Ex6 {
             }else  if (c<d){
                 System.out.print(c);
             }else System.out.println(d);
-            //
+
             if (c<d && c<b){
                 System.out.println(c);
             }else if (b<d){
