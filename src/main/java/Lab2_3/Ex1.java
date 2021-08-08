@@ -3,19 +3,19 @@ package Lab2_3;
 import java.util.Scanner;
 
 public class Ex1 {
-    public void isleapyear(){
+    public boolean isLeapYear(){
         Scanner sc= new Scanner(System.in);
         System.out.println("Nhập năm để kiểm tra ");
         int year=sc.nextInt();
         if((year%400==0) || (year%4==0 && year%100!=0)){
-            System.out.println("Là năm nhuận");
+            return true;
         }else {
-            System.out.println("không nhuận");
+            return  false;
         }
     }
 
     public static void main(String[] args) {
         Ex1 e1= new Ex1();
-        e1.isleapyear();
+        System.out.println(e1.isLeapYear());
     }
 }
