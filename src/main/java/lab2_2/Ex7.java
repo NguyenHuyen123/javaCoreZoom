@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Ex7 {
     public static void priceTaxi(){
         Scanner sc= new Scanner(System.in);
-        System.out.print("Nhập Kilomet Taxi đã chở bạn: ");
+        System.out.print("Nhập kilomet Taxi đã chở bạn: ");
        float km= sc.nextInt();
         if (km>0 &&km<=1){
             System.out.println("Số tiền phải trả là "+ km*1500+ " VNĐ");
