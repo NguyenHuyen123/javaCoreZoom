@@ -11,7 +11,7 @@ public class Ex5 {
         char[] reverse= s.toCharArray();
         String kq=" ";
         for (int i =reverse.length-1; i >=0 ; i--) {
-            kq+=reverse[i]+" ";
+            kq+=reverse[i]+"";
         }
         return kq;
     }
