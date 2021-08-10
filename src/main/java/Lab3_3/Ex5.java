@@ -9,7 +9,7 @@ public class Ex5 {
 //        return str.reverse()+" ";
         String s= String.valueOf(n);
         char[] reverse= s.toCharArray();
-        String kq=" ";
+        String kq="";
         for (int i =reverse.length-1; i >=0 ; i--) {
             kq+=reverse[i]+"";
         }
