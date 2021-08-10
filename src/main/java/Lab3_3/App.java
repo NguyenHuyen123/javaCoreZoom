@@ -16,7 +16,7 @@ public class App {
         System.out.println("Tổng số nguyên tố 0<n<50: "+sumPrime.sumPrimeNumber());
         //
         Ex5 reserveNum= new Ex5();
-        int re=987364;
+        int re=123000;
         System.out.println("=======");
         System.out.println("Số ngược "+re+" là : "+reserveNum.reverseNumber(re));
         //
