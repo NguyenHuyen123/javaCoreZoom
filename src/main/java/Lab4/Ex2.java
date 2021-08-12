@@ -23,7 +23,7 @@ public class Ex2 {
         }
         return true;
     }
-    // c-kiểm tra mảng tăng dần
+    // c- kiểm tra mảng tăng dần
     public boolean arrAscending (int []a){
         for(int i=0;i<a.length-1;i++)
             if(a[i]>a[i+1]){
