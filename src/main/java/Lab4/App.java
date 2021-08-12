@@ -3,7 +3,7 @@ package Lab4;
 public class App {
     public static void main(String[] args) {
         Ex2 e= new Ex2();
-        int []arr= {2,3,5,7,4,8,16,9,11};
+        int []arr= {2,3,5,7,16};
         System.out.println("Toàn bảng là số nguyên tố: "+ e.isAllPrime(arr));
         System.out.println("Có phải mảng tăng dần không? "+ e.arrAscending(arr));
         //3a
@@ -16,7 +16,7 @@ public class App {
             }
         }
         if(!isValue){
-            System.out.print("Không có số nào chia hết");
+            System.out.print("Không có số");
         }
         //3b
        System.out.println("\nTổng số nguyên tố trong mảng: "+ e1.sumPrimeArr(arr));
