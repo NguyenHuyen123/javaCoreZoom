@@ -18,12 +18,12 @@ public class ExString {
 
     //bt2
     public String nonNumeric(String nonNum) {
-        String rs = "";
+        String rs ="";
         for (int i = 0; i < nonNum.length(); i++) {
             if (Character.isDigit(nonNum.charAt(i))) {
                 continue;
             }
-            rs = rs + nonNum.charAt(i) + " ";
+            rs += nonNum.charAt(i) + " ";
 
         }
         return rs;
