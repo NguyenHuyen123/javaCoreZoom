@@ -132,17 +132,17 @@ public class Array2 {
 
     }
 
-    //d:nữa trên phụ
-    public int halfUpperSeDiagonal(int arr[][]) {
-        int sumHalUpperfMatrix = 0;
-        for (int i = 0; i < arr.length; i++) {
-            for (int j = i; j < arr.length - 1; j++) {
-                sumHalUpperfMatrix += arr[i][j];
-            }
-        }
-        return sumHalUpperfMatrix;
-
-    }
+//    //d:nữa trên phụ
+//    public int halfUpperSeDiagonal(int arr[][]) {
+//        int sumHalUpperfMatrix = 0;
+//        for (int i = 0; i < arr.length; i++) {
+//            for (int j = i; j < arr.length - 1; j++) {
+//                sumHalUpperfMatrix += arr[i][j];
+//            }
+//        }
+//        return sumHalUpperfMatrix;
+//
+//    }
 
     //d:nữa dưới phụ
     public int halfUnderSeDiagonal(int arr[][]) {
