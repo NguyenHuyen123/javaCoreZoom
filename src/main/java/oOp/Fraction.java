@@ -80,9 +80,9 @@ public class Fraction {
         double p1=(double) this.numerator / (double)this.denomerator;
         double p2= (double) ps1.numerator/(double) ps1.denomerator;
         if (p1>p2){
-            System.out.println("phân số "+this.numerator +"/"+ this.denomerator+"lớn hơn "+ ps1.numerator +"/"+ ps1.denomerator);
+            System.out.println("Phân số "+this.numerator +"/"+ this.denomerator+" lớn hơn "+ ps1.numerator +"/"+ ps1.denomerator);
         }else {
-            System.out.println("phân số "+ps1.numerator +"/"+ ps1.denomerator+" lớn hơn "+ this.numerator +"/"+ this.denomerator);
+            System.out.println("Phân số "+ps1.numerator +"/"+ ps1.denomerator+" lớn hơn "+ this.numerator +"/"+ this.denomerator);
         }
     }
 
