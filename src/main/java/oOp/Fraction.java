@@ -8,10 +8,11 @@ public class Fraction {
         this.numerator = numerator;
         this.denomerator = denomerator;
     }
-    public boolean isFrac(){
-        if ( denomerator==0){
-            return  false;
-        }else
+
+    public boolean isFrac() {
+        if (denomerator == 0) {
+            return false;
+        } else
             return true;
     }
 
@@ -36,7 +37,7 @@ public class Fraction {
     }
 
     public void subFrac(Fraction ps) {
-        int ts = this.numerator * ps.denomerator -  this.denomerator*ps.numerator;
+        int ts = this.numerator * ps.denomerator - this.denomerator * ps.numerator;
         int ms = this.denomerator * ps.denomerator;
         Fraction subfrac = new Fraction(ts, ms);
         subfrac.reduceFrac();
@@ -52,7 +53,7 @@ public class Fraction {
     }
 
     public void diviFrac(Fraction ps) {
-        if (isFrac()==true) {
+        if (isFrac() == true) {
             int ts = this.numerator * ps.denomerator;
             int ms = this.denomerator * ps.numerator;
 
@@ -69,20 +70,22 @@ public class Fraction {
         }
         return false;
     }
-    public boolean lunisolarFrac (){
-        if (this.numerator/this.denomerator >0){
-            return  true;// là phân số dương
-        }else
-            return  false;//là phân số âm
+
+    public boolean lunisolarFrac() {
+        if (this.numerator / this.denomerator > 0) {
+            return true;// là phân số dương
+        } else
+            return false;//là phân số âm
 
     }
-    public void compareFraction(Fraction ps1){
-        double p1=(double) this.numerator / (double)this.denomerator;
-        double p2= (double) ps1.numerator/(double) ps1.denomerator;
-        if (p1>p2){
-            System.out.println("Phân số "+this.numerator +"/"+ this.denomerator+" lớn hơn "+ ps1.numerator +"/"+ ps1.denomerator);
-        }else {
-            System.out.println("Phân số "+ps1.numerator +"/"+ ps1.denomerator+" lớn hơn "+ this.numerator +"/"+ this.denomerator);
+
+    public void compareFraction(Fraction ps1) {
+        double p1 = (double) this.numerator / (double) this.denomerator;
+        double p2 = (double) ps1.numerator / (double) ps1.denomerator;
+        if (p1 > p2) {
+            System.out.println("Phân số " + this.numerator + "/" + this.denomerator + " lớn hơn " + ps1.numerator + "/" + ps1.denomerator);
+        } else {
+            System.out.println("Phân số " + ps1.numerator + "/" + ps1.denomerator + " lớn hơn " + this.numerator + "/" + this.denomerator);
         }
     }
 

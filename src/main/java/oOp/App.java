@@ -33,5 +33,4 @@ public class App {
         System.out.println(fc1.lunisolarFrac());
         fc1.compareFraction(fc2);
     }
-
 }
