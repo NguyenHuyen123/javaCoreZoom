@@ -53,7 +53,7 @@ public class Fraction {
     }
 
     public void diviFrac(Fraction ps) {
-        if (isFrac() == true) {
+
             int ts = this.numerator * ps.denomerator;
             int ms = this.denomerator * ps.numerator;
 
@@ -61,11 +61,11 @@ public class Fraction {
             diviFrac.reduceFrac();
 
             System.out.println("Thương 2 phân số: " + diviFrac.numerator + "/" + diviFrac.denomerator);
-        }
+
     }
 
     public boolean isreduceFrac() {
-        if (USCLN(this.numerator, denomerator) == 1) {
+        if (USCLN(this.numerator, this.denomerator) == 1) {
             return true;
         }
         return false;
