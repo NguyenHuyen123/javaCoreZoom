@@ -32,5 +32,22 @@ public class App {
         System.out.println(fc1.isreduceFrac());
         System.out.println(fc1.lunisolarFrac());
         fc1.compareFraction(fc2);
+
+        /*Tam giác
+        //§ Khai báo kiểu dữ lịêu tam giác (TAMGIAC)
+        //§ Nhập/Xuất tam giác
+        //§ Tính chu vi, diện tích tam giác
+         */
+        System.out.println("====Tính chu vi , diện tách tam giác");
+        System.out.println("Nhập canh a");
+        int a = sc.nextInt();
+        System.out.println("Nhập canh b");
+        int b = sc.nextInt();
+        System.out.println("Nhập canh c");
+        int c = sc.nextInt();
+        Triangle t= new Triangle(a,b,c);
+        System.out.println("Chu vi tam giác là: "+t.chuVi());
+        System.out.println("Diện tích tam giác:"+ t.dienTich());
+
     }
 }
