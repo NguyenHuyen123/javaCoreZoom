@@ -9,11 +9,8 @@ public class Fraction {
         this.denomerator = denomerator;
     }
 
-    public boolean isFrac() {
-        if (denomerator == 0) {
-            return false;
-        } else
-            return true;
+    public void print() {
+        System.out.println("phân số:" + this.numerator + "/" + this.denomerator);
     }
 
     private int USCLN(int a, int b) {
@@ -54,13 +51,13 @@ public class Fraction {
 
     public void diviFrac(Fraction ps) {
 
-            int ts = this.numerator * ps.denomerator;
-            int ms = this.denomerator * ps.numerator;
+        int ts = this.numerator * ps.denomerator;
+        int ms = this.denomerator * ps.numerator;
 
-            Fraction diviFrac = new Fraction(ts, ms);
-            diviFrac.reduceFrac();
+        Fraction diviFrac = new Fraction(ts, ms);
+        diviFrac.reduceFrac();
 
-            System.out.println("Thương 2 phân số: " + diviFrac.numerator + "/" + diviFrac.denomerator);
+        System.out.println("Thương 2 phân số: " + diviFrac.numerator + "/" + diviFrac.denomerator);
 
     }
 

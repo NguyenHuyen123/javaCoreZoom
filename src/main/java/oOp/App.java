@@ -15,16 +15,18 @@ public class App {
  */
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Nhập tử số: ");
+        System.out.print("Nhập tử số: ");
         int numera1 = sc.nextInt();
-        System.out.println("Nhập mẫu số: ");
+        System.out.print("Nhập mẫu số: ");
         int denom1 = sc.nextInt();
-        System.out.println("Nhập tử số: ");
+        System.out.print("Nhập tử số: ");
         int numera2 = sc.nextInt();
-        System.out.println("Nhập mẫu số: ");
+        System.out.print("Nhập mẫu số: ");
         int denom2 = sc.nextInt();
         Fraction fc1 = new Fraction(numera1, denom1);
         Fraction fc2 = new Fraction(numera2, denom2);
+        fc1.print();
+        fc2.print();
         fc1.sumFrac(fc2);
         fc1.subFrac(fc2);
         fc1.multipFrac(fc2);
