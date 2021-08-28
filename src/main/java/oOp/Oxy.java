@@ -1,20 +1,13 @@
 package oOp;
 
 public class Oxy {
-    int ox, oy;
+    private int ox, oy;
 
     public Oxy(int ox, int oy) {
         this.ox = ox;
         this.oy = oy;
     }
 
-    public int getOx() {
-        return ox;
-    }
-
-    public int getOy() {
-        return oy;
-    }
 
     @Override
     public String toString() {

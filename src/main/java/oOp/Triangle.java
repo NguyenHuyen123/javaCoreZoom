@@ -1,7 +1,7 @@
 package oOp;
 
 public class Triangle {
-    int a, b, c;
+    private int a, b, c;
 
     public Triangle(int a, int b, int c) {
         this.a = a;
